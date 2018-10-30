@@ -1,4 +1,4 @@
-﻿/* Programmer Name: Nick Eekhof | Trent ID#: 0641711
+﻿/* Programmer Name: hotRODNIK
  * Program Description: This program helps a user balance their bank account
  * Date: October 16th 2018
  * Variables List:
@@ -8,7 +8,7 @@
  */
 
 using System;
-public class AssignThree
+public class BankBalancer
 {
     public static void Main()
     {
