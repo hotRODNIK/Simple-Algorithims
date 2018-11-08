@@ -1,4 +1,4 @@
-﻿/* Programmer Name: Nick Eekhof | Trent ID#: 0641711
+﻿/* Programmer Name: hotRODNIK
  * Program Name: Assignment_4
  * Program Description: This program allows a customer to book their seats on AirCanada
  * Variable List: 
@@ -6,7 +6,7 @@
  * seatList - array which holds the occupied seats on the flight
  */ 
 using System;
-public class AssignFour
+public class Booker
 {
     public static void Main()
     {
