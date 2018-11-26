@@ -1,0 +1,45 @@
+// Fraction Reduction Method
+    private void Reduce(int num, int denom)
+    {
+        // Declaring variables
+        bool isFound = false;
+        int gcf = 0;
+
+        // Check if the numerator is smaller than the denominator, they are equal or numerator is larger
+        if (num < denom)
+        {
+            // Start at the numerator and work backwards
+            for (int i = num; i > 0 && !isFound; --i)
+            {
+                // If the modulo of the numerator and the denominator equal zero, signal the discovery of the gcf
+                if (num % i == 0 && denom % i == 0)
+                {
+                    gcf = i;
+                    isFound = true;
+                }
+            }
+        }
+        else if (num > denom)
+        {
+            // Start at the denominator and work backwards   
+            for (int i = denom; i > 0 && !isFound; --i)
+            {
+                // If the modulo of the numerator and the denominator equal zero, signal the discovery of the gcf
+                if (denom % i == 0 && num % i == 0)
+                {
+                    gcf = i;
+                    isFound = true;
+                }
+            }
+        }
+         // If the numerator and the denominator are the same, set the gcf equal to one of the terms 
+        else if (num == denom)
+            gcf = num;
+
+        // If the gcf is >0, reduce
+        if (gcf > 0)
+        {
+            Numerator = num / gcf;
+            Denominator = denom / gcf;
+        }
+    }
