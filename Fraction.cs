@@ -1,4 +1,4 @@
-﻿/* Programmer Name: Nick Eekhof 
+﻿/* Programmer Name: hotRODNIK
  * Class Name: Fraction
  * Program Description: This class provides all the necessary tools to work with fractions
  * Instance Variables List: 
