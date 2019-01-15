@@ -39,11 +39,9 @@ public class Fraction
         set
         {
             if (value > 0)
-            
                 numerator = value;
             else
-                numerator = 1;
-               
+                numerator = 1; 
         }
     }
 
@@ -127,6 +125,7 @@ public class Fraction
         fract3.Reduce(fract3.Numerator, fract3.Denominator);
         return fract3;
     }
+    
     // + operator
     public static Fraction operator +(Fraction fract1, Fraction fract2)
     {
@@ -140,6 +139,7 @@ public class Fraction
         fract3.Reduce(fract3.Numerator, fract3.Denominator);
         return fract3;
     }
+    
     // >= operator
     public static bool operator >=(Fraction fract1, Fraction fract2)
     {
@@ -151,6 +151,7 @@ public class Fraction
         else
             return false;
     }
+    
     // <= operator
     public static bool operator <=(Fraction fract1, Fraction fract2)
     {
@@ -163,5 +164,4 @@ public class Fraction
         else 
             return false;
     }
-
 }
