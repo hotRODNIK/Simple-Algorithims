@@ -1,7 +1,9 @@
 /*
  * Programmer Name: hotRODNIK
  * Program Description: Simple Yet Effective and/or Elegant Factorial Solver
+ * Warning: This program uses recursion => stack overflow errors may occur... use at your own risk and/or with dilligence 
  */
+ 
 package recursive.factorial.solver;
 
 /**
@@ -30,12 +32,8 @@ public class RecursiveFactorialSolver {
     
     public static int Factorial(int num){
         if (num == 0)
-        {
             return 1;
-        }
         else
-        {
             return num * Factorial(num - 1);
-        }
     }
 }
