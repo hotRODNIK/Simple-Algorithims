@@ -1,4 +1,4 @@
-# Programmer Name: Nick Eekhof
+# Programmer Name: Nick Eekhof 
 # Program Name: MergeTwoArrays.asm
 # Program Description: This program will take two sorted arrays, merge them into
 # a single large array, then sort the larger array. 
