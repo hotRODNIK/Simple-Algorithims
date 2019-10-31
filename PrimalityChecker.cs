@@ -36,7 +36,7 @@ public static class PrimalityChecker
                         num = Convert.ToUInt64(Console.ReadLine());
                         prime = false;
 
-                        for (ulong i = 1; i <= Math.Ceiling(Math.Sqrt(num)); i++)
+                        for (ulong i = 1; i <= Math.Floor(Math.Sqrt(num)); i++)
                         {
                             if (num % i == 0)
                             {
