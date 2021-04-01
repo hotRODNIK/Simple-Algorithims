@@ -1,3 +1,2 @@
 # Simple-Algorithims
-Super Simple Programs
-Will Start out Small and Will Add More Complex Ones
+An assortment of code I wrote mainly in my first and second years of undergrad to solve mathematical problems.
